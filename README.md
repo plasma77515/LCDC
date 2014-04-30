@@ -1,4 +1,4 @@
-LCDC
+La Cité dans le Ciel
 ====
 
-DeadLock
+Site pour l'évènement "La Cité du Ciel" organisé par Deadlock.
