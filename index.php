@@ -22,7 +22,7 @@ require_once 'files/bdd.php';
         <div class="panel panel-success">
         <div class="panel-heading"><?php echo $donnees['title']; ?></div>
         <div class="panel-content"><?php echo $donnees['content']; ?></div>
-        <div class="panel-footer"><?php echo $donnees['author']; ?></div>
+        <div class="panel-footer">Auteur: <?php echo $donnees['author']; ?></div>
         </div>
         <hr>
 
