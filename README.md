@@ -1,4 +1,8 @@
 La Cité dans le Ciel
 ====
 
-Site pour l'évènement "La Cité du Ciel" organisé par Deadlock.
+Création du site de La Cité dans le Ciel, évènement dans Minecraft organisé par Deadlock, hébergé par Ni-Host.
+
+Site crée par Plasma.
+
+Toute reproduction complète ou partielle est interdite.
