@@ -14,12 +14,22 @@ require_once 'files/bdd.php';
     <div class="row">
 
       <div class="col-md-7">
-    <div class="panel panel-success">
-      <div class="panel-heading">tttt</div>
-      <div class="panel-content">fdfd</div>
-      <div class="panel-footer">kkk</div>
-    </div>
-    <hr>
+        <?php 
+        $reponse = $bdd->query('SELECT * FROM news ORDER BY id DESC');
+        while ($donnees = $reponse->fetch()) { ?>
+
+
+        <div class="panel panel-success">
+        <div class="panel-heading"><?php echo $donnees['title']; ?></div>
+        <div class="panel-content"><?php echo $donnees['content']; ?></div>
+        <div class="panel-footer"><?php echo $donnees['author']; ?></div>
+        </div>
+        <hr>
+
+        <?php
+        }
+        $reponse->closeCursor();
+         ?>
     </div>
 
     <?php require_once 'files/right.php'; ?>
