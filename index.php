@@ -13,14 +13,17 @@ require_once 'files/bdd.php';
   <div class="container">
     <div class="row">
 
-      <?php require_once 'files/right.php'; ?>
-
+      <div class="col-md-7">
     <div class="panel panel-success">
       <div class="panel-heading">tttt</div>
       <div class="panel-content">fdfd</div>
       <div class="panel-footer">kkk</div>
     </div>
+    <hr>
     </div>
+
+    <?php require_once 'files/right.php'; ?>
+
     </div>
   </div>
 
